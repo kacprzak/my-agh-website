@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+    <title>Marcin Kacprzak</title>
+  </head>
+  <body>
+    <header>
+      <table>
+	<tr>
+	  <td id="agh-znak">
+     	    <img src="images/agh_znak.gif" alt="AGH"/>
+	  </td>
+	  <td>
+     	    <h3 id="agh-header">
+	      Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie<br />
+	      Katedra Maszyn Górniczych, Przeróbczych i Transportowych
+	    </h3>
+	    <h2 id="my-name">mgr inż. Marcin Kacprzak</h2>
+	</td></tr>
+      </table>   
+    </header>
+    <nav>
+      <b><a href="index.html">Kontakt</a></b>
+      | <b><a href="posty.html">Posty</a></b>
+      | <b><a href="linki.html">Linki</a></b>
+      | <b><a href="http://www.bpp.agh.edu.pl/bpp-show.phtml?s=b1&amp;R=0&amp;W=0&amp;poz=K&amp;aut=6665&amp;tp=0"
+	      target="_blank">Publikacje</a></b>
+    </nav>
+    <section id="content">
+      {{ content }}
+    </section>
+    <footer>Ostatnia modyfikacja: {{ site.time }}</footer>
+  </body>
+</html>

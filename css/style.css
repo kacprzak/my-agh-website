@@ -1,0 +1,68 @@
+body {  
+    margin: 0 auto;  
+    padding: 0;
+    width: 680px;  
+    font: 13px/18px Verdana, Helvetica, Arial, sans-serif;    
+} 
+
+header, footer, aside, nav, article {
+    margin: 0;  
+    padding: 0;    
+    display: block;
+    clear: both;
+}
+
+code {
+    font: monospace;
+}
+
+pre {
+    font: monospace;
+    background-color: #eee;
+    padding: 10px;
+    font-size: 11px;
+    border: 1px;
+    border-style: solid;
+    border-color: #ccc;
+}
+
+#agh-znak {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#agh-header {
+    padding: 10px;
+    font-variant: small-caps;
+}
+
+#my-name {
+    margin-top: 30px;
+    text-align: right;
+    vertical-aligh: bottom;
+}
+
+nav {
+    padding: 5px;
+    border: 2px;
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-color: #aaa;
+}
+
+#content {
+    color: #111;
+}
+
+footer {
+    font-size: 10px;
+    color: #444;
+    padding: 5px;
+    text-align: right;
+    border: 2px;
+    border-top-style: dotted;
+    border-color: #aaa;
+}
